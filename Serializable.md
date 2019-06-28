@@ -2,7 +2,7 @@
 > * 序列化是把对象的状态信息转化为可存储或传输的形式过程，也就是把对象转化为字节序列
 的过程称为对象的序列化
 * 反序列化是序列化的逆向过程，把字节数组反序列化为对象，把字节序列恢复为对象的过程
-成为对象的反序列化
+称为对象的反序列化
 
 > JDK 提供了 Java 对象的序列化方式实现对象序列化传输，主要通过输出流java.io.ObjectOutputStream和对象输入流java.io.ObjectInputStream来实现。
 * java.io.ObjectOutputStream：表示对象输出流 , 它的 writeObject(Object obj)方法可以对参
